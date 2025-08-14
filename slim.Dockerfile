@@ -1,4 +1,4 @@
-FROM node:22.6.0-slim
+FROM node:lts-bookworm-slim
 
 RUN apt-get update
 RUN apt-get install -y imagemagick
